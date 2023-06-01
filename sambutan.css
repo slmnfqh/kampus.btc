@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,700;1,700&family=Fredoka+One&display=swap');
+
+*{ 
+  font-family: 'Fredoka One', cursive;
+}
+.ct1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #162538;
+  
+}
+
+.ct1 .ct2{
+  height: 100px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.lii a{
+    color: #e4ae2d;
+}
+.lii a:hover{
+    color: #ffffff;
+}
+
+.lii
+,.ct2 li{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #e4ae2d;
+  font-size: 65px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) forwards;
+}
+
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+
+.ct2 li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #162538;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(19) infinite;
+}
+@keyframes typing {
+  90%, 
+  50%{
+    left: 100%;
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+

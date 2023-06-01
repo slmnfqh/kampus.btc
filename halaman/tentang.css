@@ -1,0 +1,109 @@
+body {
+    font-family: "Helvetica";
+  }
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  /* NAVIGASI DAN HEADER */
+  #navbar {
+    width: 100%;
+    background-color: #073c64;
+  }
+  #container {
+    margin-top: -8px;
+    margin-bottom: -8px;
+  }
+  
+  #logo {
+    width: 209px;
+    height: 89px;
+    background-image: url(../foto/btc.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+  }
+  
+  #pembungkus {
+    margin-bottom: 5px;
+  }
+  
+  #pembungkus a {
+    color: rgb(255, 255, 255);
+  }
+  .nav-item  a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.6s;
+    padding: 15px 0px;
+  
+  }
+  .nav-item a:hover {
+    box-shadow: #FDCB2C 0px 1px;
+  }
+  /* TUTUP */
+
+
+  /* SEJARAH */
+  .sejarah {
+    background-color: #e8f5ff;
+    padding-top : 150px;
+  }
+  
+  .sejarah h5 {
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  .sejarah h6{
+      border-bottom: 3px solid #FDCB2C;
+      width: 150px;
+    }
+    /* Tutup */
+  
+
+
+    /* Buka Visi & misi */
+    
+    .visi h6{
+      border-bottom: 3px solid #FDCB2C;
+      width: 150px;
+      margin: 0 auto;
+    }
+    /* tutup */
+
+
+
+    /* PETA */
+    /* .peta{
+      background-color: #e8f5ff;
+    }
+
+
+    .peta h6{
+      border-bottom: 3px solid #FDCB2C;
+      width: 150px;
+      
+    } */
+    /* tutup */
+
+
+    /* struktur */
+    .struktur{
+      background-color:#e8f5ff ;
+    }
+
+    .struktur h6{
+      border-bottom: 3px solid #FDCB2C;
+      width: 90px;
+    }
+
+    .struktur .card {
+      box-shadow: -1px 26px 41px -10px rgba(181,67,199,0.5);
+      -webkit-box-shadow: -1px 26px 41px -10px rgba(181,67,199,0.5);
+      -moz-box-shadow: -1px 26px 41px -10px rgba(181,67,199,0.5);
+    }
+    .struktur .card img {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+    /* tutup */
+  

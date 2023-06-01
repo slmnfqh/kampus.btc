@@ -1,0 +1,176 @@
+body {
+  font-family: "Helvetica";
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* NAVIGASI DAN HEADER */
+#navbar {
+  width: 100%;
+  background-color: #073c64;
+}
+#container {
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+#logo {
+  width: 209px;
+  height: 89px;
+  background-image: url(../foto/btc.png);
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+}
+
+#pembungkus {
+  margin-bottom: 5px;
+}
+
+#pembungkus a {
+  color: rgb(255, 255, 255);
+}
+.nav-item  a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  transition: 0.6s;
+  padding: 15px 0px;
+
+}
+.nav-item a:hover {
+  box-shadow: #FDCB2C 0px 1px;
+}
+  /* TUTUP */
+  
+  .pend {
+    margin: 150px 0;
+  }
+
+  .pend p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  .pend h6 {
+    border-bottom: 3px solid #FDCB2C;
+    width: 200px;
+    
+  }
+  .pend h4 {
+    text-align: justify;
+    line-height: 35px;
+  }
+  
+  .login-box a {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: 0.9s;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #073c64;
+}
+.login-box a:hover {
+  background-color: #073c64;
+  color: rgb(255, 255, 255);
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  color: #03e9f4;
+  font-size: 16px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 2px;
+}
+.login-box a:hover {
+  background: #03e9f4;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
+.login-box a span {
+  position: absolute;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: garisatas 1s linear infinite;
+}
+
+@keyframes garisatas {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: gariskanan 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes gariskanan {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: garisbawah 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes garisbawah {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: gariskiri 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes gariskiri {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+  

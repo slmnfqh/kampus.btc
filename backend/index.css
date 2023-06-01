@@ -1,0 +1,148 @@
+body {
+    font-family: "Heljadwal;
+  }
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  /* NAVIGASI DAN HEADER */
+  #navbar {
+    width: 100%;
+    background-color: #073c64;
+  }
+  #container {
+    margin-top: -8px;
+    margin-bottom: -8px;
+  }
+  
+  #logo {
+    width: 209px;
+    height: 89px;
+    background-image: url(../foto/btc.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+  }
+  
+  #pembungkus {
+    margin-bottom: 5px;
+  }
+  
+  #pembungkus a {
+    color: rgb(255, 255, 255);
+  }
+  .nav-item  a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.6s;
+    padding: 15px 0px;
+  
+  }
+  .nav-item a:hover {
+    box-shadow: #FDCB2C 0px 1px;
+  }
+  /* TUTUP */
+
+
+  /* SEJARAH */
+  .jadwal{
+    background-color: #e8f5ff;
+    padding-top : 150px;
+  }
+  
+  .jadwal h5 {
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  .jadwal h6{
+      border-bottom: 3px solid #FDCB2C;
+      width: 150px;
+    }
+    /* Tutup */
+  
+
+
+    /* Buka Visi & misi */
+    
+    .visi h6{
+      border-bottom: 3px solid #FDCB2C;
+      width: 150px;
+      margin: 0 auto;
+    }
+    /* tutup */
+
+
+
+    /* PETA */
+    /* .peta{
+      background-color: #e8f5ff;
+    }
+
+
+    .peta h6{
+      border-bottom: 3px solid #FDCB2C;
+      width: 150px;
+      
+    } */
+    /* tutup */
+
+
+    /* struktur */
+    .struktur{
+      background-color:#e8f5ff ;
+    }
+
+    .struktur h6{
+      border-bottom: 3px solid #FDCB2C;
+      width: 180px;
+    }
+    /* tutup */
+  
+
+
+
+      
+      .search-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        transform: translate(-50%, -50%);
+        padding: 25px 5px;
+        border-radius: 40px;
+        height: 40px;
+        background: #2f3640;
+      }
+      
+      .search-box:hover .search-txt {
+        width: 200px;
+        padding: 0 6px;
+      }
+      
+      .search-box:hover .search-btn {
+        background: #fff;
+      }
+      
+      .search-txt {
+        border: none;
+        background: none;
+        outline: none;
+        padding: 0;
+        color: #fff;
+        transition: 0.5s;
+        font-size: 1rem;
+        width: 0px;
+      }
+      
+      .search-btn {
+        color: #1abc9c;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 0.5s;
+        
+      }
+      

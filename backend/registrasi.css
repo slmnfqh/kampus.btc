@@ -1,0 +1,171 @@
+body {
+    font-family: "Helvetica";
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1.2s;
+  }
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  /* NAVIGASI DAN HEADER */
+  #navbar {
+    width: 100%;
+    background-color: #073c64;
+  }
+  #container {
+    margin-top: -8px;
+    margin-bottom: -8px;
+  }
+  
+  #logo {
+    width: 209px;
+    height: 89px;
+    background-image: url(../foto/btc.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+  }
+  
+  #pembungkus {
+    margin-bottom: 5px;
+  }
+  
+  #pembungkus a {
+    color: rgb(255, 255, 255);
+  }
+  .nav-item  a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.6s;
+    padding: 15px 0px;
+  
+  }
+  .nav-item a:hover {
+    box-shadow: #FDCB2C 0px 1px;
+  }
+
+
+
+
+
+
+#cont {
+    width: 90%;
+    background: url("https://ihebxxxjaouadi.github.io/images-repo/images/responsive-login-html-CSS/images/background.svg") no-repeat;
+    background-size: 50%;
+    background-position: left;
+    padding: 180px 0;
+}
+
+.inner-container {
+    float: right;
+    /* background-color: rgba(202, 185, 49, 0.7); */
+    padding: 40px 100px 60px 90px;
+    position: relative;
+    right: 5%;
+    max-width: 350px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.inner-container .content-container{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+
+
+.inner-container nav input[type="button"]  {
+    float: right;
+    border: none;
+    outline: none;
+    border: 2px solid #f39c12;
+    padding: 2px;
+    color: gray;
+    cursor: pointer;
+
+}
+
+
+.inner-container h1 {
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.inner-container .forget-password {
+    font-size: 10px;
+}
+
+
+.inner-container .forget-password a{
+    color: #f39c12;
+}
+
+.inner-container .forget-password a:hover{
+    font-weight: bold;
+}
+
+
+.inner-container input[type="text"], 
+.inner-container input[type="password"]{
+    display: block;
+    margin-bottom: 20px;
+    padding: 8px 56px 8px 4px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    transition: 0.2s;
+}
+
+
+.inner-container input[type="text"]:focus, 
+.inner-container input[type="password"]:focus {
+    padding: 8px 50px 8px 10px;
+    border-bottom: 1px solid #080808;
+    color: #060605;
+}
+
+
+.inner-container input:last-of-type {
+    margin-top: 20px;
+    padding: 10px 78px;
+    border-radius: 50px;
+    border: 1px solid #e0d74d;
+    background: none;
+    color: gray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+.inner-container input[type="submit"]:hover {
+    background-color: #e0d74d;
+    color: black;
+}
+
+
+
+@media screen and (max-width:1050px) {
+
+    #cont{
+        width: 100%;
+        background-position: center;
+        background-size: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .inner-container {
+        right: 0%;
+        background-color: white;
+    }
+}
+
+
+

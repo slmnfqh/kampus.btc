@@ -1,0 +1,83 @@
+body {
+    font-family: "Helvetica";
+  }
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  /* NAVIGASI DAN HEADER */
+  #navbar {
+    width: 100%;
+    background-color: #073c64;
+  }
+  #container {
+    margin-top: -8px;
+    margin-bottom: -8px;
+  }
+  
+  #logo {
+    width: 209px;
+    height: 89px;
+    background-image: url(../foto/btc.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+  }
+  
+  #pembungkus {
+    margin-bottom: 5px;
+  }
+  
+  #pembungkus a {
+    color: rgb(255, 255, 255);
+  }
+  .nav-item  a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.6s;
+    padding: 15px 0px;
+  
+  }
+  .nav-item a:hover {
+    box-shadow: #FDCB2C 0px 1px;
+  }
+    /* TUTUP */
+
+
+
+    
+/* BERITA UBTC  */
+.beritaubtc {
+    padding: 30px 0;
+    /* background-image: linear-gradient(to left top, #1f7dc5, #0e84bb, #1596be, #06aac4, #29b7be, #2ec0ce, #37cade, #41d3ee, #5fc7ff, #95b7ff, #c6a5ed, #e793ca); */
+    background-image: linear-gradient(to left top, #8faadc, #83b3dc, #7fbbd8, #82c1d2, #8cc6cb, #90c7ce, #93c8d1, #97c9d3, #9cc5dc, #aac0e0, #cfbade, #cb99d6);
+  }
+  
+  .beritaubtc h1 {
+    padding-top: 100px;
+  }
+  
+  .beritaubtc p {
+    font-size: 17px;
+  }
+  .beritaubtc h6 {
+    border-bottom: 3px solid #FDCB2C;
+    margin: 0 auto;
+    width: 150px;
+  }
+  .beritaubtc .card {
+    box-shadow: 0 15px 25px rgba(22, 22, 22, 0.663);
+    border-radius: 20px;
+  }
+  
+  #linkberita .card-body a {
+    font-size: 14px;
+    padding-bottom: 5px;
+    transition: 0.9s;
+    color: rgb(10, 63, 169);
+    text-decoration: none;
+  }
+  #linkberita a:hover {
+    font-size: 15px;
+    color: rgb(57, 123, 255);
+    box-shadow: rgb(242, 131, 252) 0px 2px;
+  }
+  /* TUTUP */

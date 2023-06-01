@@ -1,0 +1,303 @@
+body {
+  font-family: "Segoe UI";
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* NAVIGASI DAN HEADER */
+#navbar {
+  width: 100%;
+  background-color: #073c64;
+}
+#container {
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+#logo {
+  width: 209px;
+  height: 89px;
+  background-image: url(foto/btc.png);
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+}
+
+#pembungkus {
+  margin-bottom: 5px;
+}
+
+.nav-item a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  transition: 0.6s;
+  padding: 15px 0px;
+}
+.nav-item a:hover {
+  box-shadow: #fdcb2c 0px 1px;
+}
+/* TUTUP */
+
+/* CONTAINER VIDEO */
+.container1 .row .col {
+  background-color: skyblue;
+  padding-top: 80px;
+}
+
+.video1 {
+  margin-bottom: -7px;
+  width: 100%;
+  padding-top: 89px;
+}
+/* TUTUP */
+
+/* TENTANG UBTC */
+.tentangubtc {
+  padding: 45px 0;
+  background-image: linear-gradient(
+    to right bottom,
+    #a8c0de,
+    #9cc1dc,
+    #91c1d8,
+    #87c1d3,
+    #80c1cb
+  );
+}
+.tentangubtc h6 {
+  border-bottom: 3px solid #fdcb2c;
+  margin: 0 auto;
+  width: 150px;
+}
+.tentangubtc h1 {
+  padding-top: 20px;
+}
+.tentangubtc .img-fluid {
+  border-radius: 5px;
+}
+
+/* TUTUP */
+
+/* AKADEMIK  */
+.pendidikan {
+  padding: 50px 0;
+  background-image: linear-gradient(
+    to right bottom,
+    #aed0e5,
+    #bad4f0,
+    #cbd6f9,
+    #ded8fe,
+    #f2daff
+  );
+}
+
+.video2 {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.pendidikan h6 {
+  border-bottom: 3px solid #fdcb2c;
+  margin: 0 auto;
+  width: 120px;
+}
+/* TUTUP */
+
+/* PENDAFTARAN */
+.pendaftaran {
+  color: black;
+  /* background-image: linear-gradient(to left bottom, #edeecf, #c3d8c0, #9fc0b4, #84a6a7, #728c96); */
+  background-image: linear-gradient(
+    to right bottom,
+    #d2e0f8,
+    #b6c8e5,
+    #9bb0d3,
+    #7f99c1,
+    #6482af
+  );
+}
+
+.pendaftaran h6 {
+  border-bottom: 3px solid #fdcb2c;
+  margin: 0 auto;
+  width: 160px;
+}
+
+/* TUTUP */
+
+/* FAKTA */
+.fakta {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  /* background-image: linear-gradient(to left top, #dbe3b5, #d7e3b5, #d4e2b6, #d0e2b6, #cde1b7); */
+  background-image: linear-gradient(
+    to left,
+    #7e9ed6,
+    #6ab3d1,
+    #81c1c1,
+    #a8cab8,
+    #cbd1be
+  );
+}
+.fakta h6 {
+  border-bottom: 3px solid rgb(197, 44, 121);
+  margin: 0 auto;
+  width: 160px;
+}
+.fakta h3 {
+  font-weight: bold;
+  color: rgb(197, 44, 121);
+}
+.fakta a {
+  background-color: #3d3d3262;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.9s;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.fakta a:hover {
+  background-color: #073c64;
+  color: rgb(255, 255, 255);
+}
+/* TUTUP */
+
+/* KONTAK */
+.kontak {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a2c43;
+  color: white;
+  font-size: 13px;
+}
+
+.kontak a {
+  text-decoration: none;
+  color: #00b2ff;
+}
+/* tutup  */
+
+/* FOOTER */
+footer {
+  background-color: #073c64;
+  color: white;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* TUTUP */
+
+/* ANIMASI */
+#box {
+  background-color: #1a2c43;
+}
+#box:hover {
+  background-color: #03e9f4;
+}
+.login-box a {
+  padding: 5px 10px;
+  transition: 0.9s;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.login-box a:hover {
+  background-color: #073c64;
+  color: rgb(255, 255, 255);
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  color: #03e9f4;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+.login-box a:hover {
+  background: #03e9f4;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.login-box a span {
+  position: absolute;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: garisatas 1s linear infinite;
+}
+
+@keyframes garisatas {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: gariskanan 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes gariskanan {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: garisbawah 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes garisbawah {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: gariskiri 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes gariskiri {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+/* TUTUP */

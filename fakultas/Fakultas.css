@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica";
+  }
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  /* NAVIGASI DAN HEADER */
+  #navbar {
+    width: 100%;
+    background-color: #073c64;
+  }
+  #container {
+    margin-top: -8px;
+    margin-bottom: -8px;
+  }
+  
+  #logo {
+    width: 209px;
+    height: 89px;
+    background-image: url(../foto/btc.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+  }
+  
+  #pembungkus {
+    margin-bottom: 5px;
+  }
+  
+  #pembungkus a {
+    color: rgb(255, 255, 255);
+  }
+  /* TUTUP */
+  
+  .Fakultas {
+    margin: 150px 0;
+  }
+
+  .Fakultas h6{
+    border-bottom: 5px solid #FDCB2C;
+    width: 200px;
+  }
+  
